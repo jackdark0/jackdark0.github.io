@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/* CSS Document */
+body
+{
+	background: #f9f0bf;
+	padding: 0;
+	margin: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.6em;
+}
+
+img
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+h1
+{
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+h2
+{
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+p
+{
+	margin: 0 0 15px 0;
+}
+
+div#page_holder
+{
+	width: 820px;
+	margin: 0 auto 0 auto;
+	background: url(images/bkg_page.gif) repeat-y;
+}
+
+div#page_content
+{
+	width: 800px;
+	margin-left: 10px;
+	background: #ffffff;
+}
+
+div#brow_photo
+{
+	height: 335px;
+	background: #cccccc;
+}
+
+div#brow_photo img
+{
+	position: absolute;
+}
+
+div#nav_bar
+{
+	width: 800px;
+	height: 55px;
+	position: relative;
+}
+
+div#nav_bar a img
+{
+	position: absolute;
+}
+
+div#nav_bar div#btn_about
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+div#nav_bar div#btn_services
+{
+	position: absolute;
+	left: 160px;
+	top: 0;
+}
+
+div#nav_bar div#btn_new
+{
+	position: absolute;
+	left: 320px;
+	top: 0;
+}
+
+div#nav_bar div#btn_directions
+{
+	position: absolute;
+	left: 480px;
+	top: 0;
+}
+
+div#nav_bar div#btn_contact
+{
+	position: absolute;
+	left: 640px;
+	top: 0;
+}
+
+div#nav_bar img.nav_arrow
+{
+	position: absolute;
+	left: 70px;
+	top: 20px;
+}
+
+div#nav_bar img#nav_arrow_01
+{
+	
+}
+
+div#nav_bar img#nav_arrow_02
+{
+
+}
+
+div#nav_bar img#nav_arrow_03
+{
+
+}
+
+div#nav_bar img#nav_arrow_04
+{
+
+}
+
+div#nav_bar img#nav_arrow_05
+{
+
+}
+
+div#body_content
+{
+	width: 770px;
+	margin-left: 15px;
+}
+
+div#footer
+{
+	width: 800px;
+	background: #ab2c40;
+	height: 20px;
+	margin: 20px 0 0 10px;
+	font-size: 10px;
+	text-align: center;
+	color: #ffffff;
+}
+
+div#page_bottom
+{
+	margin: 0 auto;
+}
+

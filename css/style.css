@@ -1,0 +1,147 @@
+body
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.jumbotron
+{
+	background: url('../img/msl_building3.jpg') no-repeat center center;
+	height: 600px;
+	color: #fff;
+	text-shadow: 1px 1px 3px #000;
+}
+
+.jumbotron .container
+{
+	margin-top: 11%;
+	margin-bottom: 11%;
+	text-align: left;
+}
+
+.jumbotron .container h1
+{
+	font-size: 36px;
+}
+
+.jumbotron .container p
+{
+	font-weight: normal;
+	font-size: 26px;
+}
+
+.navbar
+{
+	background: rgba(255,255,255,0.85);
+	height: 80px;
+}
+
+.navbar-solid
+{
+	background: rgba(255,255,255,1);
+}
+
+.nav>li>a
+{
+	font-size: 17px;
+	text-transform: uppercase;
+	padding: 30px 10px;
+	text-shadow: 1px 1px 0 rgba(255,255,255,0.75);	
+}
+
+section
+{
+	padding: 60px;
+	text-align: center;
+}
+
+section h2
+{
+	text-transform: uppercase;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+section#about_us
+{
+	padding-top: 10px;	
+}
+
+section#about_us p
+{
+	font-size: 20px;
+	margin-bottom: 20px;	
+}
+
+section#about_doc
+{
+	background: url(../img/whirlpool.png);
+}
+
+section#about_doc div.content h2
+{
+	margin-top: 0;
+}
+
+section#about_doc div.content
+{
+	text-align: left;
+}
+
+.doc-photo, .srv-photo, .loc-photo
+{
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+}
+
+section#services
+{
+	background: #fff;
+}
+
+section#location
+{
+	background: url(../img/whirlpool.png);
+}
+
+.loc-map
+{
+	text-align: left;
+}
+
+.loc-map iframe
+{
+	width: 100%;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+}
+
+.centered
+{
+	border-bottom: 1px solid #ccc; 
+	padding-bottom: 5px;
+}
+
+.address_info
+{
+	padding-top: 15px;
+	text-align: right;
+	font-size: 13px;
+}
+
+.form-group
+{
+	text-align: left;
+}
+
+footer
+{
+	text-align: center;
+	background: #ab2b40;
+	padding: 15px 0;
+	color: #fff;
+	font-size: 12px
+}
