@@ -86,6 +86,11 @@ section#about_doc div.content
 	text-align: left;
 }
 
+section#about_doc .dr-z
+{
+	padding-top: 10%;
+}
+
 .our-photo
 {
 	-webkit-border-radius: 20px;
